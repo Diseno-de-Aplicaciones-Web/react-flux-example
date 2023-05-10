@@ -1,9 +1,9 @@
 import MostrarOfertas from '../componentes/MostrarOfertas';
 
 function VistaDatos() {
-    <h2>Ver datos</h2>
     return(
         <>
+        <h2>Ofertas</h2>
         <MostrarOfertas/>
         </>
     )
