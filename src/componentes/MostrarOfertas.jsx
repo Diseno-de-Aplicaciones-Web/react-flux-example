@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { contextoOfertas } from '../servicios/ContextoOfertas';
+import { contextoOfertas } from '../servicios/ServicioOfertas';
 
 function MostrarOfertas() {
 

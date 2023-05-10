@@ -2,7 +2,7 @@ import './App.css';
 import Portada from './vistas/Portada';
 import VistaDatos from './vistas/VistaDatos';
 import Backoffice from './vistas/Backoffice';
-import { ServicioOfertas } from './servicios/ContextoOfertas';
+import { ServicioOfertas } from './servicios/ServicioOfertas';
 
 function App() {
   return (
