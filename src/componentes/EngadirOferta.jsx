@@ -1,7 +1,10 @@
+import { useNavigate } from "react-router-dom"
 import { useContext, useState } from "react"
 import { contextoOfertas } from "../servicios/ServicioOfertas"
 
 function EngadirOferta() {
+
+    const navigate = useNavigate()
 
     const { engadirOferta } = useContext(contextoOfertas)
 
@@ -18,6 +21,7 @@ function EngadirOferta() {
 
     function manexadorEngadir() {
         engadirOferta({titulo,descripcion})
+        navigate("/ofertas/")
     }
 
     return (
