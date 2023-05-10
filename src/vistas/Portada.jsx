@@ -1,5 +1,5 @@
 function Portada() {
-    return ( <h1>Hola!</h1>)
+    return ( <h2>Hola!</h2>)
 }
 
 export default Portada
