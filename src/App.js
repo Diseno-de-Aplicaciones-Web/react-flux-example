@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Portada from './vistas/Portada';
+import VistaDatos from './vistas/VistaDatos';
+import Backoffice from './vistas/Backoffice';
+import { ServicioOfertas } from './servicios/ContextoOfertas';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <ServicioOfertas>
+  <h1>React Flux example</h1>
+  <main>
+    <Portada/>
+    <Backoffice/>
+    <VistaDatos/>
+  </main>
+  </ServicioOfertas>
   );
 }
 
